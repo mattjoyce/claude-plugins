@@ -1,0 +1,28 @@
+{
+  "name": "mattjoyce-plugins",
+  "owner": {
+    "name": "Matt Joyce"
+  },
+  "metadata": {
+    "description": "Matt Joyce's Claude Code plugin collection",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "kanban",
+      "source": {
+        "source": "github",
+        "repo": "mattjoyce/kanban-skill"
+      },
+      "description": "Markdown-based Kanban board managed by Claude Code. Cards live as .md files — no database, no server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Joyce"
+      },
+      "repository": "https://github.com/mattjoyce/kanban-skill",
+      "license": "Apache-2.0",
+      "keywords": ["kanban", "tasks", "project-management"],
+      "category": "productivity"
+    }
+  ]
+}
